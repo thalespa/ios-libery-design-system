@@ -1,6 +1,6 @@
 # ios-libery-design-system
 
-Este repositório é um exemplo de como criar e estruturar uma biblioteca iOS usando CocoaPods, para ser facilmente integrada em outros projetos iOS. A biblioteca "libery" é um design system que pode ser usado como base para construir aplicativos iOS consistentes e de alta qualidade.
+Este repositório é um exemplo de como criar e estruturar uma biblioteca iOS usando CocoaPods. A biblioteca "libery" é um sistema de design que pode ser usado como base para construir aplicativos iOS consistentes e de alta qualidade.
 
 ## Uso
 
