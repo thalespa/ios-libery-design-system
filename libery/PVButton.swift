@@ -52,13 +52,17 @@ public final class PVButton: UIButton {
     private func applyStyle() {
         self.backgroundColor = self.style.uiColor
         self.setTitleColor(.white, for: .normal)
+       
+        if let currentTitle = self.title(for: .normal) {
+            self.setTitle(currentTitle.uppercased(), for: .normal)
+        }
     }
     
     // Adicione propriedades para definir os cantos arredondados do botão
     public var cornerRadius: CGFloat = 8.0 {
         didSet {
             layer.cornerRadius = cornerRadius
-           }
+        }
     }
   
     // Sobrescreva o inicializador padrão para configurar o botão
