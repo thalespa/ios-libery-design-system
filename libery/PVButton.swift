@@ -40,22 +40,21 @@ public final class PVButton: UIButton {
         }
     }
     
+    override public func setTitle(_ title: String?, for state: UIControl.State) {
+        super.setTitle(title?.uppercased(), for: state)
+    }
+    
     // Adicione outros estilos conforme necessário
     public var style: ButtonStyle = .standard {
         didSet {
             applyStyle()
         }
-        
     }
    
     // Adicione métodos para configurar a aparência do botão com base no estilo definido
     private func applyStyle() {
         self.backgroundColor = self.style.uiColor
         self.setTitleColor(.white, for: .normal)
-       
-        if let currentTitle = self.title(for: .normal) {
-            self.setTitle(currentTitle.uppercased(), for: .normal)
-        }
     }
     
     // Adicione propriedades para definir os cantos arredondados do botão
