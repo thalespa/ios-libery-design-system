@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AE04AAA1555EFAAE083B0A8 /* Pods_libery_liberyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD63A2EB45ACCB29F9FDC324 /* Pods_libery_liberyTests.framework */; };
 		9A8796212A6EC31E00C48DCB /* libery.docc in Sources */ = {isa = PBXBuildFile; fileRef = 9A8796202A6EC31E00C48DCB /* libery.docc */; };
 		9A8796272A6EC31E00C48DCB /* libery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A87961C2A6EC31E00C48DCB /* libery.framework */; };
 		9A87962C2A6EC31E00C48DCB /* liberyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A87962B2A6EC31E00C48DCB /* liberyTests.swift */; };
 		9A87962D2A6EC31E00C48DCB /* libery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A87961F2A6EC31E00C48DCB /* libery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A8796372A6EC3A400C48DCB /* PVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8796362A6EC3A400C48DCB /* PVButton.swift */; };
+		9A8796392A6EC6E300C48DCB /* libery.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9A8796382A6EC6E300C48DCB /* libery.podspec */; };
+		E689C6F9C62F7A5E2131F6C3 /* Pods_libery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D91648AE92F87C8474338F /* Pods_libery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,12 +28,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C387966D34461C29CEB3823 /* Pods-libery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libery.release.xcconfig"; path = "Target Support Files/Pods-libery/Pods-libery.release.xcconfig"; sourceTree = "<group>"; };
+		4D4F8689C8872E2F502521DB /* Pods-libery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libery.debug.xcconfig"; path = "Target Support Files/Pods-libery/Pods-libery.debug.xcconfig"; sourceTree = "<group>"; };
+		5A8BCA9D22ECD8E1931DF79D /* Pods-libery-liberyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libery-liberyTests.release.xcconfig"; path = "Target Support Files/Pods-libery-liberyTests/Pods-libery-liberyTests.release.xcconfig"; sourceTree = "<group>"; };
 		9A87961C2A6EC31E00C48DCB /* libery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = libery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A87961F2A6EC31E00C48DCB /* libery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libery.h; sourceTree = "<group>"; };
 		9A8796202A6EC31E00C48DCB /* libery.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = libery.docc; sourceTree = "<group>"; };
 		9A8796262A6EC31E00C48DCB /* liberyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = liberyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A87962B2A6EC31E00C48DCB /* liberyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liberyTests.swift; sourceTree = "<group>"; };
 		9A8796362A6EC3A400C48DCB /* PVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVButton.swift; sourceTree = "<group>"; };
+		9A8796382A6EC6E300C48DCB /* libery.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = libery.podspec; sourceTree = "<group>"; };
+		AF5887A63096F807DEFD6035 /* Pods-libery-liberyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libery-liberyTests.debug.xcconfig"; path = "Target Support Files/Pods-libery-liberyTests/Pods-libery-liberyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6D91648AE92F87C8474338F /* Pods_libery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD63A2EB45ACCB29F9FDC324 /* Pods_libery_liberyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libery_liberyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E689C6F9C62F7A5E2131F6C3 /* Pods_libery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8796272A6EC31E00C48DCB /* libery.framework in Frameworks */,
+				5AE04AAA1555EFAAE083B0A8 /* Pods_libery_liberyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,9 +67,12 @@
 		9A8796122A6EC31E00C48DCB = {
 			isa = PBXGroup;
 			children = (
+				9A87963A2A6EC73900C48DCB /* Metadata */,
 				9A87961E2A6EC31E00C48DCB /* libery */,
 				9A87962A2A6EC31E00C48DCB /* liberyTests */,
 				9A87961D2A6EC31E00C48DCB /* Products */,
+				E7EE05F6C80D50BF00941CB1 /* Pods */,
+				C6FF1718B7C5D0F92153FC43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +103,34 @@
 			path = liberyTests;
 			sourceTree = "<group>";
 		};
+		9A87963A2A6EC73900C48DCB /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				9A8796382A6EC6E300C48DCB /* libery.podspec */,
+			);
+			path = Metadata;
+			sourceTree = "<group>";
+		};
+		C6FF1718B7C5D0F92153FC43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D91648AE92F87C8474338F /* Pods_libery.framework */,
+				DD63A2EB45ACCB29F9FDC324 /* Pods_libery_liberyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7EE05F6C80D50BF00941CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D4F8689C8872E2F502521DB /* Pods-libery.debug.xcconfig */,
+				0C387966D34461C29CEB3823 /* Pods-libery.release.xcconfig */,
+				AF5887A63096F807DEFD6035 /* Pods-libery-liberyTests.debug.xcconfig */,
+				5A8BCA9D22ECD8E1931DF79D /* Pods-libery-liberyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -106,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A8796302A6EC31E00C48DCB /* Build configuration list for PBXNativeTarget "libery" */;
 			buildPhases = (
+				A2F8D9D08C319D6722062C40 /* [CP] Check Pods Manifest.lock */,
 				9A8796172A6EC31E00C48DCB /* Headers */,
 				9A8796182A6EC31E00C48DCB /* Sources */,
 				9A8796192A6EC31E00C48DCB /* Frameworks */,
@@ -124,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A8796332A6EC31E00C48DCB /* Build configuration list for PBXNativeTarget "liberyTests" */;
 			buildPhases = (
+				0402C6F41A2D571510963B2F /* [CP] Check Pods Manifest.lock */,
 				9A8796222A6EC31E00C48DCB /* Sources */,
 				9A8796232A6EC31E00C48DCB /* Frameworks */,
 				9A8796242A6EC31E00C48DCB /* Resources */,
@@ -180,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8796392A6EC6E300C48DCB /* libery.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +237,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0402C6F41A2D571510963B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libery-liberyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F8D9D08C319D6722062C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-libery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A8796182A6EC31E00C48DCB /* Sources */ = {
@@ -343,6 +436,7 @@
 		};
 		9A8796312A6EC31E00C48DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4F8689C8872E2F502521DB /* Pods-libery.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -377,6 +471,7 @@
 		};
 		9A8796322A6EC31E00C48DCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C387966D34461C29CEB3823 /* Pods-libery.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -411,6 +506,7 @@
 		};
 		9A8796342A6EC31E00C48DCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5887A63096F807DEFD6035 /* Pods-libery-liberyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,6 +523,7 @@
 		};
 		9A8796352A6EC31E00C48DCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8BCA9D22ECD8E1931DF79D /* Pods-libery-liberyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
