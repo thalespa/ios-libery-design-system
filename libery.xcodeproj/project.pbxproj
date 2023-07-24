@@ -15,6 +15,7 @@
 		9A8796372A6EC3A400C48DCB /* PVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8796362A6EC3A400C48DCB /* PVButton.swift */; };
 		9A8796392A6EC6E300C48DCB /* libery.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9A8796382A6EC6E300C48DCB /* libery.podspec */; };
 		9ACAE3982A6EE624003F419F /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9ACAE3972A6EE624003F419F /* README */; };
+		9ACAE39A2A6F0BCE003F419F /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACAE3992A6F0BCE003F419F /* Common.swift */; };
 		E689C6F9C62F7A5E2131F6C3 /* Pods_libery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D91648AE92F87C8474338F /* Pods_libery.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		9A8796362A6EC3A400C48DCB /* PVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PVButton.swift; sourceTree = "<group>"; };
 		9A8796382A6EC6E300C48DCB /* libery.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = libery.podspec; sourceTree = "<group>"; };
 		9ACAE3972A6EE624003F419F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		9ACAE3992A6F0BCE003F419F /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		AF5887A63096F807DEFD6035 /* Pods-libery-liberyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libery-liberyTests.debug.xcconfig"; path = "Target Support Files/Pods-libery-liberyTests/Pods-libery-liberyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6D91648AE92F87C8474338F /* Pods_libery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD63A2EB45ACCB29F9FDC324 /* Pods_libery_liberyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libery_liberyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,7 @@
 				9A87961F2A6EC31E00C48DCB /* libery.h */,
 				9A8796202A6EC31E00C48DCB /* libery.docc */,
 				9A8796362A6EC3A400C48DCB /* PVButton.swift */,
+				9ACAE3992A6F0BCE003F419F /* Common.swift */,
 			);
 			path = libery;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A8796212A6EC31E00C48DCB /* libery.docc in Sources */,
+				9ACAE39A2A6F0BCE003F419F /* Common.swift in Sources */,
 				9A8796372A6EC3A400C48DCB /* PVButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
